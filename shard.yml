@@ -1,21 +1,16 @@
 name: carbon_postmark_adapter
-version: 0.5.0
-
+version: 0.6.0
 authors:
   - Xavi Ablaza <xavi@makisu.co>
-
 crystal: ">= 1.0.0"
-
 license: MIT
-
 dependencies:
   carbon:
     github: luckyframework/carbon
-    version: ~> 0.5.0
+    version: ~> 0.6.0
   habitat:
     github: luckyframework/habitat
     version: ~> 0.4.8
-
 development_dependencies:
   spec_mirror:
     github: tilitribe/spec_mirror.cr
@@ -23,6 +18,3 @@ development_dependencies:
   dotenv:
     github: gdotdesign/cr-dotenv
     version: ~> 1.0.0
-  ameba:
-    github: veelenga/ameba
-    version: ~> 0.14.3
